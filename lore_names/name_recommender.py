@@ -6,7 +6,7 @@ import time
 
 df = pd.read_csv('db/names.csv')
 
-def recommend_names(gender, race, start_letter=None, num_recommendations=10000, similar_to=None, similarity_threshold=3):
+def recommend_names(gender, race, start_letter=None, num_recommendations=10000, similar_to=None, similarity_threshold=5):
     np_array = df.to_numpy()
     filtered_array = np_array[(np_array[:, 3] == gender) & (np_array[:, 2] == race)]
 
