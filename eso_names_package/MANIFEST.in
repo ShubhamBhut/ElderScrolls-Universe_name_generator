@@ -1,0 +1,2 @@
+include db/names.csv
+include model/model_2.pth
