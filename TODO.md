@@ -12,6 +12,8 @@ checked - doesn't seem to make much difference, so keeping the parameter but wit
 
 - [ ] a main function integrating both recommender and generator to return the required names
 
+- [ ] import time reduction
+
 - [ ] a realease as pip package
 
 - [ ] a web frontend

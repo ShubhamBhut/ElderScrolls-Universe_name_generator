@@ -25,15 +25,3 @@ def recommend_names(gender, race, start_letter=None, num_recommendations=10000, 
         recommended_names = random.sample(filtered_array[:, 0].tolist(), num_recommendations)
 
     return recommended_names
-
-input_gender = 'male'
-input_race = 'Breton'
-input_start_letter = 'S'
-input_similar_to = 'Savogoth'
-
-start_time = time.time()
-names = recommend_names(input_gender, input_race, start_letter=input_start_letter, num_recommendations=10, similar_to=input_similar_to, similarity_threshold=5)
-end_time = time.time()
-print(names)
-print(end_time - start_time)
-
