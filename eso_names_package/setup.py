@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='eso_names',
-    version='0.2',
+    version='1.0',
     include_package_data=True,
     package_data={'': ['db/*.csv','model/*pth']},
     packages=find_packages(),
