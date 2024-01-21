@@ -2,7 +2,6 @@ import pandas as pd
 import random
 import numpy as np
 import Levenshtein 
-import time
 
 df = pd.read_csv('db/names.csv')
 

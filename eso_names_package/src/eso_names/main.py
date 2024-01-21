@@ -1,12 +1,12 @@
-from name_recommender import recommend_names
+from eso_names.name_recommender import recommend_names
 import string
 import random
 import torch
-from raw_model import RNN
+from eso_names.raw_model import RNN
 
 rnn = torch.load("model/model_2.pth")
 
-from name_generator_v2 import generate_names
+from eso_names.name_generator_v2 import generate_names
 
 def names_generator(gender, category, start_letter=None, quantity=10):
     if start_letter == None:

@@ -3,6 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name='eso_names',
     version='0.2',
+    include_package_data=True,
+    package_data={'': ['db','model']},
     packages=find_packages('src'),
     package_dir={'': 'src'},
     install_requires=[

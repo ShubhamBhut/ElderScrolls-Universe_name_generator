@@ -1,4 +1,12 @@
+MANIFEST.in
 setup.py
+db/names.csv
+model/model_2.pth
+src/eso_names/__init__.py
+src/eso_names/main.py
+src/eso_names/name_generator_v2.py
+src/eso_names/name_recommender.py
+src/eso_names/raw_model.py
 src/eso_names.egg-info/PKG-INFO
 src/eso_names.egg-info/SOURCES.txt
 src/eso_names.egg-info/dependency_links.txt
