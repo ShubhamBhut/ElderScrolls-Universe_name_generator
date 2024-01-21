@@ -4,9 +4,8 @@ setup(
     name='eso_names',
     version='0.2',
     include_package_data=True,
-    package_data={'': ['db','model']},
-    packages=find_packages('src'),
-    package_dir={'': 'src'},
+    package_data={'': ['db/*.csv','model/*pth']},
+    packages=find_packages(),
     install_requires=[
         'filelock==3.13.1',
         'fsspec==2023.12.2',

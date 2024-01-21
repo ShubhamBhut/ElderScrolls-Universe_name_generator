@@ -3,11 +3,16 @@ import string
 import pandas as pd
 import torch.nn.functional as F
 import random
+import pkg_resources
 
 all_letters = string.ascii_letters + " .,;'-"
 n_letters = len(all_letters) + 1 # Plus EOS marker
 
-df = pd.read_csv("db/names.csv")
+def load_df():
+    stream = pkg_resources.resource_stream(__name__, 'db/names.csv')
+    return pd.read_csv(stream)
+
+df = load_df()
 
 all_categories = list(df['race'].unique())
 n_categories = len(all_categories)

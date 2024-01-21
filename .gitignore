@@ -1,5 +1,4 @@
 .vscode/
-lore_names/__pychache__/
-__pychache__/
-name_generator/__pychache__/
-.venv/
+**/__pycache__/
+**/dist/
+**/build/

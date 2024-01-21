@@ -2,9 +2,14 @@ from eso_names.name_recommender import recommend_names
 import string
 import random
 import torch
+import pkg_resources
 from eso_names.raw_model import RNN
 
-rnn = torch.load("model/model_2.pth")
+def load_rnn():
+    stream = pkg_resources.resource_stream(__name__, 'model/model_2.pth')
+    return torch.load(stream)
+
+rnn = load_rnn()
 
 from eso_names.name_generator_v2 import generate_names
 

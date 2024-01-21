@@ -2,8 +2,14 @@ import pandas as pd
 import random
 import numpy as np
 import Levenshtein 
+import pkg_resources
 
-df = pd.read_csv('db/names.csv')
+
+def load_df():
+    stream = pkg_resources.resource_stream(__name__, 'db/names.csv')
+    return pd.read_csv(stream)
+
+df = load_df()
 
 def recommend_names(gender, race, start_letter=None, num_recommendations=10000, similar_to=None, similarity_threshold=5):
     np_array = df.to_numpy()

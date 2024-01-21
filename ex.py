@@ -1,6 +1,5 @@
 import time
 start_time = time.time()
-from lore_names.name_recommender import recommend_names
 import torch
 end_time = time.time()
 from eso_names.raw_model import RNN
