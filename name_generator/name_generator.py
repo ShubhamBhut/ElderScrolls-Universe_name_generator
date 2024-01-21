@@ -27,7 +27,7 @@ class RNN(nn.Module):
     def initHidden(self):
         return torch.zeros(1, self.hidden_size)
 
-rnn = torch.load("name_generator/model/model_1.pth")
+rnn = torch.load("name_generator/model/model_2.pth")
 
 from io import open
 import string
