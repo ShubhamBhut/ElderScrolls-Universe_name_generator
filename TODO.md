@@ -14,6 +14,8 @@ checked - doesn't seem to make much difference, so keeping the parameter but wit
 
 - [ ] import time reduction
 
+- [ ] some better variable names and code restructuring
+
 - [ ] a realease as pip package
 
 - [ ] a web frontend
