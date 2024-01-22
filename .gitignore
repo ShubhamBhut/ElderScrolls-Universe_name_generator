@@ -2,3 +2,4 @@
 **/__pycache__/
 **/dist/
 **/build/
+**/eso_names.egg-info
