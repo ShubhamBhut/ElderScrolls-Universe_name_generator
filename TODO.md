@@ -16,9 +16,11 @@ checked - doesn't seem to make much difference, so keeping the parameter but wit
 
 - [ ] some better variable names and code restructuring
 
-- [ ] a realease as pip package
+- [x] a realease as pip package
 
 - [ ] a web frontend
+
+- [ ] a shell script to generate names
 
 - Old model plan -  So far the best working setup has been lr of 0.01 with max_norm=5 and no set temperature value (default=1).
 

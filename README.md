@@ -68,6 +68,8 @@ The primary goal of this project is to facilitate Elder Scroll games players in 
 
 Contributions to the project are welcome! If you encounter issues or have suggestions for improvements, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/ShubhamBhut/ElderScrolls-Universe_name_generator).
 
+Also feel free to check [TODO.md](https://github.com/ShubhamBhut/ElderScrolls-Universe_name_generator/blob/master/TODO.md) to add some ideas or get some ideas to work upon.
+
 ### File tree of `eso_names` the pip package:
 
 ```
