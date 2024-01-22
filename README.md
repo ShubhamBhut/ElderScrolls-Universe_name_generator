@@ -1,4 +1,4 @@
-# eso_names: Elder Scrolls Online Names Generator and recommendor
+# eso_names: Elder Scrolls Universe Names Generator and recommendor
 
 **Introduction:**
 
@@ -47,7 +47,7 @@ The `eso_names` Python package provides two distinct functions, `names_generator
 
 **Project Goals:**
 
-The primary goal of this project is to facilitate ESO players in creating lore-friendly character names. Additionally, it aims to provide modders with a tool to generate fitting names for their in-game creations.
+The primary goal of this project is to facilitate Elder Scroll games players in creating lore-friendly character names. Additionally, it aims to provide modders with a tool to generate fitting names for their in-game creations.
 
 **Getting Started:**
 
@@ -92,10 +92,10 @@ eso_names_package/
 
 **Disclaimer:**
 
-This project is not affiliated with Bethesda Softworks or the Elder Scrolls Online game. It is an independent tool created by [Shubham Patel](https://github.com/ShubhamBhut).
+This project is not affiliated with Bethesda Softworks or any of the Elder Scrolls game. It is an independent tool created by [Shubham Patel](https://github.com/ShubhamBhut).
 
 **License:**
 
 This project is licensed under the [MIT License](LICENSE).
 
-Enjoy generating lore-friendly names for your ESO characters and creations!
+Enjoy generating lore-friendly names for your Elder Scrolls characters and creations!
