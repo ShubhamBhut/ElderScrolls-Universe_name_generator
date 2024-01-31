@@ -48,13 +48,3 @@ if menu_option == "Generate Names":
 elif menu_option == "Recommend Names":
     recommend_character_names()
 
-# # Main Content
-# if menu_option == "Generate Names":
-#     col1, col2 = st.columns(2)  # Divide the main content into two columns
-#     with col1:
-#         generate_character_names()
-
-# elif menu_option == "Recommend Names":
-#     col1, col2 = st.columns(2)  # Divide the main content into two columns
-#     with col1:
-#         recommend_character_names()
