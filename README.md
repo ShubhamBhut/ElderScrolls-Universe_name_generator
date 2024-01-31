@@ -1,5 +1,7 @@
 # eso_names: Elder Scrolls Universe Names Generator and recommendor
 
+Streamlit app: [Elder Scrolls Names](https://elderscrolls-universe-namegenerator.streamlit.app/)
+
 **Introduction:**
 
 The `eso_names` Python package provides two distinct functions, `names_generator` and `names_recommendor`, designed to assist players and modders of Elder Scrolls universe games in generating character names that are lore-friendly and well-suited for the game's universe.
