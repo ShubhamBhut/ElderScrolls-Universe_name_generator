@@ -18,7 +18,9 @@ checked - doesn't seem to make much difference, so keeping the parameter but wit
 
 - [x] a realease as pip package
 
-- [ ] a web frontend
+- [x] a web frontend
+
+- [ ] Since strealit is slow, the flask app would be better to have 
 
 - [ ] a shell script to generate names
 
