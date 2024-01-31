@@ -20,7 +20,7 @@ def generate_character_names():
     quantity = st.slider("Number of Names", 1, 100, 10)
 
     if st.button("Generate Names"):
-        generated_names = names_generator(gender=gender, category=category, start_letter=start_letter..capitalize(), quantity=quantity)
+        generated_names = names_generator(gender=gender, category=category, start_letter=start_letter.capitalize(), quantity=quantity)
         st.markdown(f"**Generated Names:**\n")
         for name in generated_names:
             st.success(name)
