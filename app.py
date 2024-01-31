@@ -20,7 +20,7 @@ def generate_character_names():
     quantity = st.slider("Number of Names", 1, 100, 10)
 
     if st.button("Generate Names"):
-        generated_names = names_generator(gender=gender, category=category, start_letter=start_letter, quantity=quantity)
+        generated_names = names_generator(gender=gender, category=category, start_letter=start_letter.capitalize(), quantity=quantity)
         st.markdown(f"**Generated Names:**\n")
         for name in generated_names:
             st.success(name)
@@ -36,7 +36,7 @@ def recommend_character_names():
     similar_to = st.text_input("Similar To (Optional)")
 
     if st.button("Recommend Names"):
-        recommended_names = names_recommendor(gender=gender, category=category, start_letter=start_letter, quantity=quantity, similarity_threshold=similarity_threshold, similar_to=similar_to)
+        recommended_names = names_recommendor(gender=gender, category=category, start_letter=start_letter.capitalize(), quantity=quantity, similarity_threshold=similarity_threshold, similar_to=similar_to)
         st.success(f"Recommended Names: {', '.join(recommended_names)}")
 
 # Sidebar Navigation
